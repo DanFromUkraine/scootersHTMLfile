@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.flex {
+    display: flex;
+}
+main {
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+header {
+    display: flex;
+    font-weight: 400px;
+    padding: 36px;
+    width: 100%;
+}
+header :is(ul, .header_profile) {
+    display: flex;
+    list-style-type: none;
+    margin-left: 120px;
+}
+.header_profile a {
+    width: 40px;
+    margin: 0px 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header ul li {
+    text-transform: uppercase;
+    margin: 0 20px
+}
+/* 
+h3 {
+    margin: 0;
+} */
+.main_screen {
+    height: 819px;
+    background-image: url(/img/main_screen_img.png);
+    background-size: cover;
+}
+.main_screen .text_block {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.f_large {
+    font-size: 50px;
+}
+.f_medium {
+    font-size: 20px;
+}
+
+.last_screen {
+    height: 819px;
+    background-image: url(/img/last_screen.img.png);
+    background-size: cover;
+}
+.last_screen .text_block {
+    text-align: center;
+    padding-top: 40px;
+}
+.main_screen_buttons {
+    justify-content: center;
+}
+.btn {
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+    background-color: #FF4A32;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 20%;
+}
